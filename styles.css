@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.circles {
+    padding: 50px 0;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;     margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.blue {
+    background-color: #007bff;
+}
+
+.purple {
+    background-color: #8a2be2;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+.brand-logos img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #f8f9fa; 
+    border-top: 1px solid #ddd; 
+    color: #333;
+}
+
+.footer-left {
+    max-width: 50%;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-right ul li {
+    margin-bottom: 5px;
+}
+
+.footer-right ul li strong {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .circle {
+        width: 250px; 
+        height: 250px;
+        font-size: 24px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer-left, .footer-right {
+        text-align: center;
+        max-width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+}
